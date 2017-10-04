@@ -16,9 +16,12 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd wu`
-* `npm install`
+* `cd Woolly-UTC`
+* `npm i -f`
 * `bower install`
+* `cd node_modules`
+* `ln -s . ember-cli-moment/node_modules`
+* `ember build`
 
 ## Running / Development
 
